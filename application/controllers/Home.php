@@ -16,7 +16,6 @@ class Home extends CI_Controller {
         $this->load->view('components/whatsapp');
         $this->load->view('components/chatbot');
         $this->load->view('components/spinner_principal');
-
         $this->load->view('sections/footer');
     }
 	public function error404() {
@@ -28,5 +27,15 @@ class Home extends CI_Controller {
         $this->load->view('sections/footer_simple');
     }
 
+	public function autoridades(){
+			$this->load->view('sections/header');
+			$this->load->view('components/menu');
+			$this->load->view('pages/integracion');
+			$this->load->view('components/whatsapp');
+			$this->load->view('components/chatbot');
+			$this->load->view('components/spinner_principal');
+			$this->load->view('sections/footer');
+		
+	} 
 	
 }

@@ -53,3 +53,6 @@ $route['default_controller'] = 'home';
 $route['translate_uri_dashes'] = FALSE;
 $route['404_override'] = 'home/error404';
 
+$route['autoridades'] = 'home/autoridades';
+
+
