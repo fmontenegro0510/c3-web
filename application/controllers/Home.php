@@ -6,9 +6,21 @@ class Home extends CI_Controller {
         $this->load->view('sections/header');
         $this->load->view('components/menu');
         $this->load->view('pages/seccion_principal');
-        $this->load->view('components/chatbot');
+        $this->load->view('components/modal_concursos');
         $this->load->view('components/whatsapp');
+        $this->load->view('components/chatbot');
+        $this->load->view('components/spinner_principal');
+
         $this->load->view('sections/footer');
     }
+	public function error404() {
+        $this->load->view('sections/header');
+        $this->load->view('components/menu');
+        $this->load->view('pages/404');
+        $this->load->view('components/chatbot');
+        $this->load->view('components/whatsapp');
+        $this->load->view('sections/footer_simple');
+    }
+
 	
 }

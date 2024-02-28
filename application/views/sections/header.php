@@ -43,7 +43,7 @@
 
 
     <!-- share script -->
-    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=65c62b763625b4001a8bcf67&product=inline-share-buttons&source=platform" async="async"></script>
+    <!-- <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=65c62b763625b4001a8bcf67&product=inline-share-buttons&source=platform" async="async"></script> -->
     <!-- end share script -->
 
 </head>
