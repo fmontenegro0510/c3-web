@@ -441,6 +441,7 @@ $config['standardize_newlines'] = FALSE;
 | WARNING: This feature is DEPRECATED and currently available only
 |          for backwards compatibility purposes!
 |
+|--> https://blog.trescomatres.com/2017/03/codeigniter-seguridad-evitar-xss-en-formularios/
 */
 $config['global_xss_filtering'] = FALSE;
 
@@ -457,6 +458,7 @@ $config['global_xss_filtering'] = FALSE;
 | 'csrf_expire' = The number in seconds the token should expire.
 | 'csrf_regenerate' = Regenerate token on every submission
 | 'csrf_exclude_uris' = Array of URIs which ignore CSRF checks
+| -> https://stackoverflow.com/questions/76178617/how-to-enable-csrf-protection-in-codeigniter-3-and-use-the-get-csrf-hash-fun
 */
 $config['csrf_protection'] = FALSE;
 $config['csrf_token_name'] = 'csrf_test_name';
