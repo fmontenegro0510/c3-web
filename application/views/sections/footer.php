@@ -5,7 +5,7 @@
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
                     <div class="escudo_provincia_footer">
-                        <img src="img/v1/logo/Escudo_Chaco_big.png" alt="escudo_provincia_Chaco" class="escudo_provincial" >
+                        <img src="<?php echo base_url();?>assets/img/v1/logo/Escudo_Chaco_big.png" alt="escudo_provincia_Chaco" class="escudo_provincial" >
                     </div>
                     <div class="leyenda_escudo_provincia">
                         <h3 class="text-light mb-4">Consejo de la Magistratura <br> y Jurado de Enjuiciamiento.</h3>
@@ -62,62 +62,33 @@
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
-    <!-- Whatsapp button -->
-	<a href="https://wa.me/5493624907888?text=Buen%20día, %20necesito%20realizar%20una%20consulta" class="whatsapp" target="_blank"> <i class="fab fa-whatsapp whatsapp-icon"></i></a>
-    <!-- End Whatsapp -->
 
-    <!-- chatbot -->
-    <button class="chatbot-toggler">
-        <span class="material-symbols-rounded">mode_comment</span>
-        <span class="material-symbols-outlined">close</span>
-      </button>
-      <div class="chatbot">
-        <header>
-          <h1 class="title_chatbot">Chatbot</h1>
-          <span class="close-btn material-symbols-outlined">close</span>
-        </header>
-        <ul class="chatbox">
-          <li class="chat incoming">
-            <span class="material-symbols-outlined">smart_toy</span>
-            <p>Hola👋 soy Pepo como puedo ayudarte?<br>Ingresá una opción:</p>
-          </li>
-          <li class="chat incoming">
-            <span class="material-symbols-outlined">smart_toy</span>
-            <p><button type="button" class="btn btn-primary btn-block btn-xs">1 - Estado de Concursos</button><br><button class="btn btn-lg btn-warning btn-xs">2 - Informacion importante</button></p>
-          </li>
-          
 
-        </ul>
-        <div class="chat-input">
-          <textarea placeholder="Ingrese su mensaje..." spellcheck="false" required></textarea>
-          <span id="send-btn" class="material-symbols-rounded">send</span>
-        </div>
-      </div>
-    <!-- end chatbot -->
+
 
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="<?php echo base_url();?>assets/lib/wow/wow.min.js"></script>
+    <script src="<?php echo base_url();?>assets/lib/easing/easing.min.js"></script>
+    <script src="<?php echo base_url();?>assets/lib/waypoints/waypoints.min.js"></script>
+    <script src="<?php echo base_url();?>assets/lib/counterup/counterup.min.js"></script>
+    <script src="<?php echo base_url();?>assets/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="<?php echo base_url();?>assets/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="<?php echo base_url();?>assets/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="<?php echo base_url();?>assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
    
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-    <script src="js/tabs.js"></script>
+    <script src="<?php echo base_url();?>assets/js/main.js"></script>
+    <script src="<?php echo base_url();?>assets/js/tabs.js"></script>
 
     <!-- js\table.js -->
     <script src="https://unpkg.com/bootstrap-table@1.22.1/dist/bootstrap-table.min.js"></script>
     <script src="https://unpkg.com/bootstrap-table@1.22.1/dist/bootstrap-table-locale-all.min.js"></script>
-    <script src="js/table.js"></script>
+    <script src="<?php echo base_url();?>assets/js/table.js"></script>
     <!-- end js\table.js -->
 
 </body>
