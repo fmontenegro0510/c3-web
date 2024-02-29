@@ -54,7 +54,7 @@ $route['translate_uri_dashes'] = FALSE;
 $route['404_override'] = 'home/error404';
 
 $route['autoridades'] = 'home/autoridades';
-$route['quienres_somos'] = 'home/quienes_somos';
+$route['quienes_somos'] = 'home/quienes_somos';
 $route['normativa'] = 'home/normativa';
 $route['concursos'] = 'home/concursos';
 $route['propuestas'] = 'home/propuestas';

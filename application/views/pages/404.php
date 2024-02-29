@@ -1,5 +1,4 @@
-    <!-- 404 Error -->
-    <!-- 404 Start -->
+    <!-- 404 -->
     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container text-center">
             <div class="row justify-content-center">
@@ -14,4 +13,3 @@
         </div>
     </div>
     <!-- 404 End -->
-    <!-- end 404 Error -->

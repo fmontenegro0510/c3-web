@@ -10,13 +10,13 @@
                 <p class="mb-4" style="text-align: justify;">La primera sesión del Cuerpo se celebró el 25 de septiembre de 1958 Nuestro Consejo de la Magistratura tiene mas de cincuenta años de existencia. Los principios constitucionales que pretende garantizar y concretar son la independencia del Poder Judicial y el principio de separación de poderes, bregando con sus acciones por un Poder Judicial Independiente, como garantía de la República, la Constitución y los derechos individuales.</p>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                <img class="img-fluid" src="img/v1/historia.jpg" alt="">
+                <img class="img-fluid" src="<?php echo base_url();?>assets/img/v1/historia.jpg" alt="">
             </div>
         </div>
         <hr>
         <div class="row g-5">
             <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
-                <img class="img-fluid" src="img/v1/misionyfuncion.jpg" alt="">
+                <img class="img-fluid" src="<?php echo base_url();?>assets/img/v1/misionyfuncion.jpg" alt="">
             </div>
             <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
                 <h1 class="display-5 mb-4">Misión y funciones</h1>
@@ -24,6 +24,7 @@
                 <p class="mb-4" style="text-align: justify;">Así también, se encuentran a su cargo las funciones de Jurado de Enjuiciamiento, correspondiéndole en tal carácter la tarea de saneamiento y depuración del Poder Judicial, mediante el juzgamiento de aquellos magistrados y funcionarios que hubieren cometido algún tipo de delito o falta en ocasión o con motivo del ejercicio de sus funciones.</p>
                 <p class="mb-4" style="text-align: justify;">Es decir que con esta importante y compleja tarea estamos sin dudas contribuyendo responsablemente a la plena vigencia del estado de derecho, a combatir la inseguridad jurídica y a la construcción de una justicia independiente como permanentemente lo reclama la sociedad, dependiendo ello en buena medida de la calidad de magistrados y funcionarios, que nuestra decisión lleve a adoptar y proponer en cada caso.</p>
                 <div class="d-grid gap-2">
+					<!-- Fix manual -->
                     <button class="btn btn-primary" type="button">Manual de Misiones y Funciones </button>
                   </div>
             </div>
@@ -38,7 +39,7 @@
                 <p class="mb-4" style="text-align: justify;">Los consejeros serán designados por dos años en sus cargos y podrán ser reelegidos por un período. El cargo de consejero es honorífico o irrenunciable con las excepciones que la ley preverá.</p>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                <img class="img-fluid" src="img/v1/autoridades.jpg" alt="">
+                <img class="img-fluid" src="<?php echo base_url();?>assets/img/v1/autoridades.jpg" alt="">
             </div>
         </div>
     </div>
