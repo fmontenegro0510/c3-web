@@ -1,4 +1,4 @@
-    <!-- Google Map Start -->
+    <!-- Mapa Sede Saenz Peña -->
     <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
         <h1 class="display-5 mb-4">Dependencia Administrativa - Presidencia Roque Sáenz Peña</h1>
         <iframe class="w-100 mb-n2" style="height: 450px; padding-left: 10px; padding-right: 10px;"
@@ -6,5 +6,5 @@
         frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0">
         </iframe>
     </div>
-    <!-- Google Map End -->
+    <!-- End Mapa Sede Saenz Peña -->
     <hr>

@@ -1,4 +1,4 @@
-    <!-- chatbot -->
+    <!-- Chatbot -->
     <button class="chatbot-toggler">
         <span class="material-symbols-rounded">mode_comment</span>
         <span class="material-symbols-outlined">close</span>
@@ -25,4 +25,4 @@
           <span id="send-btn" class="material-symbols-rounded">send</span>
         </div>
       </div>
-    <!-- end chatbot -->
+    <!-- End Chatbot-->
