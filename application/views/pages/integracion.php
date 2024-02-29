@@ -5,7 +5,6 @@
                 <h4 class="section-title">Integración Actual</h4>
                 <h1 class="display-5 mb-4">Autoridades del Consejo de la Magistratura</h1>
             </div>
-
             <div class="row text-center">
                 <hr>
                 <h3><u>Representación:</u> Abogados de la Primera Circunscripción</h3>
@@ -15,7 +14,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/team-2.jpg" alt="">
                         </div>
                         <div class="bg-light text-center p-4">
                             <h3 class="mt-2">Héctor Daniel Zalazar</h3>
@@ -26,7 +25,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                            <img class="img-fluid" src="<?php echo base_url();?>assets/img/team-1.jpg" alt="">
                         </div>
                         <div class="bg-light text-center p-4">
                             <h3 class="mt-2">Elina Viviana Nicoloff</h3>
@@ -34,9 +33,7 @@
                         </div>
                     </div>
                 </div>
-
-                <br>
-                
+                <br>                
                 <div class="row text-center">
                     <hr> 
                     <h3><u>Representación:</u> Superior Tribunal de Justicia</h3>
@@ -46,7 +43,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item position-relative">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/team-4.jpg" alt="">
+                                <img class="img-fluid" src="<?php echo base_url();?>assets/img/team-4.jpg" alt="">
                             </div>
                             <div class="bg-light text-center p-4">
                                 <h3 class="mt-2">Iride Isabel María Grillo</h3>
@@ -57,7 +54,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item position-relative">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/team-3.jpg" alt="">
+                                <img class="img-fluid" src="<?php echo base_url();?>assets/img/team-3.jpg" alt="">
                             </div>
                             <div class="bg-light text-center p-4">
                                 <h3 class="mt-2">Víctor Emilio Del Rio</h3>
@@ -66,7 +63,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
