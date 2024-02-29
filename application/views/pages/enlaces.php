@@ -10,56 +10,60 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item d-flex position-relative text-center h-100 img_enlace_container">
                         <div class="p-5">
-                            <img  class=" mb-4 img_enlace" src="img/v1/enlaces/chacogov.png" alt="Icon">
+							<a href="https://chaco.gob.ar/" target="_blank">
+                            <img  class=" mb-4 img_enlace" src="<?php echo base_url();?>assets/img/v1/enlaces/chacogov.png" alt="Icon">
+							</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item d-flex position-relative text-center h-100 img_enlace_container">
                         <div class="p-5">
-                            <img class=" mb-4 img_enlace" src="img/v1/enlaces/fofecma.png" alt="Icon">
+                            <img class=" mb-4 img_enlace" src="<?php echo base_url();?>assets/img/v1/enlaces/fofecma.png" alt="Icon">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item d-flex position-relative text-center h-100 img_enlace_container">
                         <div class="p-5">
-                            <img class=" mb-4 img_enlace" src="img/v1/enlaces/logopoderjudicial.png" alt="Icon">
+                            <img class=" mb-4 img_enlace" src="<?php echo base_url();?>assets/img/v1/enlaces/logopoderjudicial.png" alt="Icon">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item d-flex position-relative text-center h-100 img_enlace_container">
                         <div class="p-5">
-                            <img class=" mb-4 img_enlace" src="img/v1/enlaces/centrojudiciales.png" alt="Icon">
+                            <img class=" mb-4 img_enlace" src="<?php echo base_url();?>assets/img/v1/enlaces/centrojudiciales.png" alt="Icon">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item d-flex position-relative text-center h-100 img_enlace_container">
                         <div class="p-5">
-                            <img class=" mb-4 img_enlace" src="img/v1/enlaces/LogoUCA.png" alt="Icon">
+                            <img class=" mb-4 img_enlace" src="<?php echo base_url();?>assets/img/v1/enlaces/LogoUCA.png" alt="Icon">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item d-flex position-relative text-center h-100 img_enlace_container">
                         <div class="p-5">
-                            <img class=" mb-4 img_enlace" src="img/v1/enlaces/LogoUCP.png" alt="Icon">
+                            <img class=" mb-4 img_enlace" src="<?php echo base_url();?>assets/img/v1/enlaces/LogoUCP.png" alt="Icon">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item d-flex position-relative text-center h-100 img_enlace_container">
                         <div class="p-5">
-                            <img class=" mb-4 img_enlace_unne" src="img/v1/enlaces/LogoUnne.png" alt="Icon">
+                            <img class=" mb-4 img_enlace_unne" src="<?php echo base_url();?>assets/img/v1/enlaces/LogoUnne.png" alt="Icon">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item d-flex position-relative text-center h-100 img_enlace_container">
                         <div class="p-5">
-                            <img class=" mb-4 img_enlace" src="img/v1/enlaces/poderlegislativo.png" alt="Icon">
+                            
+							<a href="http://www.poderjudicial.cl/" target="_blank"></a>
+						<img class=" mb-4 img_enlace" src="<?php echo base_url();?>assets/img/v1/enlaces/poderlegislativo.png" alt="Icon">
                         </div>
                     </div>
                 </div>

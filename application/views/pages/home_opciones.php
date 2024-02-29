@@ -5,7 +5,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="fact-item text-center bg-light h-100 p-5 pt-0">
                         <div class="fact-icon">
-                            <img src="img/v1/icons/info_white.png" alt="Icon">
+                            <img src="<?php echo base_url();?>assets/img/v1/icons/info_white.png" alt="Icon">
                         </div>
                         <h3 class="mb-3">Información de Utilidad</h3>
                         <p class="mb-0">Aspectos a tener en cuenta para rendir los exámenes, requisitos de inscripción y generalidades de los exámenes psicofísicos</p>
@@ -18,7 +18,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="fact-item text-center bg-light h-100 p-5 pt-0">
                         <div class="fact-icon">
-                            <img src="img/v1/icons/info_solid.png" alt="Icon">
+                            <img src="<?php echo base_url();?>assets/img/v1/icons/info_solid.png" alt="Icon">
                         </div>
                         <h3 class="mb-3">Concursos Abiertos</h3>
                         <p class="mb-0">Todos los concursos de antecedentes y oposición con inscripción abierta</p>
@@ -33,7 +33,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="fact-item text-center bg-light h-100 p-5 pt-0">
                         <div class="fact-icon">
-                            <img src="img/v1/icons/plan_white.png" alt="Icon">
+                            <img src="<?php echo base_url();?>assets/img/v1/icons/plan_white.png" alt="Icon">
                         </div>
                         <h3 class="mb-3">Estados de Concursos</h3>
                         <p class="mb-0">Fechas de exámenes, postulantes y comisiones de cada uno de los concursos vigentes, así como también concursos provisorios</p>

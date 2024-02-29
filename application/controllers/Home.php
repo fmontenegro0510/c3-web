@@ -12,6 +12,10 @@ class Home extends CI_Controller {
         $this->load->view('sections/header');
         $this->load->view('components/menu');
         $this->load->view('pages/seccion_principal');
+        $this->load->view('pages/home_opciones');
+        $this->load->view('pages/novedades');
+        $this->load->view('pages/enlaces');
+        $this->load->view('pages/contacto');
         $this->load->view('components/modal_concursos');
         $this->load->view('components/modal_anuncio');
         $this->load->view('components/whatsapp');
@@ -68,6 +72,8 @@ class Home extends CI_Controller {
 		$this->load->view('sections/header');
 		$this->load->view('components/menu');
 		$this->load->view('pages/contacto');
+		$this->load->view('components/mapa_resistencia');
+		$this->load->view('components/mapa_saenz_pena');		
 		$this->load->view('components/whatsapp');
 		$this->load->view('components/chatbot');
 		$this->load->view('sections/footer');

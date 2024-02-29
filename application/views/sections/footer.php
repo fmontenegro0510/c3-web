@@ -50,7 +50,7 @@
                         Dirección General de Tecnología - CMyJE Chaco
                     </div>
                     <div class="col-md-2 text-center text-md-end">
-                        &copy; 2023
+                        &copy; <?php echo date('Y');?>
                     </div>
                 </div>
             </div>

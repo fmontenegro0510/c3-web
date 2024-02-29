@@ -18,7 +18,14 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="<?php echo base_url();?>autoridades" class="nav-item nav-link active"><h5 class="mb-0">Autoridades</h5></a>
                 <a href="<?php echo base_url();?>quienes_somos" class="nav-item nav-link"><h5 class="mb-0">Quienes Somos</h5></a>
-                <a href="<?php echo base_url();?>normativa" class="nav-item nav-link"><h5 class="mb-0">Normativa</h5></a>
+                    <div class="nav-item dropdown" >
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> <h5 class="mb-0">Normativa</h5></a>
+                    <div class="dropdown-menu border-0 m-0" id="dropdown_menu_prensa" >
+						<a href="<?php echo base_url();?>prensa_blog" class="dropdown-item"><h5 class="mb-0">Leyes/Reglamentación</h5> </a>
+                        <a href="<?php echo base_url();?>prensa_blog" class="dropdown-item"><h5 class="mb-0">Constitución Provincial</h5> </a>
+                        <a href="<?php echo base_url();?>prensa_galeria" class="dropdown-item"><h5 class="mb-0">Reglamentación Interna</h5></a>
+                    </div>
+                </div>
                 <a href="<?php echo base_url();?>concursos" class="nav-item nav-link"><h5 class="mb-0">Concursos</h5></a>
                 <a href="<?php echo base_url();?>propuestas" class="nav-item nav-link"><h5 class="mb-0">Propuestas</h5></a>
                 <a href="<?php echo base_url();?>sentencias" class="nav-item nav-link"><h5 class="mb-0">Sentencias</h5></a>
@@ -30,7 +37,7 @@
                     </div>
                 </div>
                 <a href="<?php echo base_url();?>contacto" class="nav-item nav-link"><h5 class="mb-0">Contacto </h5></a>
-                <a href="<?php echo base_url();?>inscripciones" class="btn btn-primary py-2 px-4  d-lg-block" id="btn_inscribirse">INSCRIPCIONES</a>
+                <a href="https://forms.gle/XsXEq4mUaCxZykcJ9" target="_blank" class="btn btn-primary py-2 px-4  d-lg-block" id="btn_inscribirse">INSCRIPCIONES</a>
             </div>
 			<!-- <button class="btn btn-primary w-100 py-3" type="submit" data-bs-toggle="modal" data-bs-target="#anuncio_modal">Anuncio</button> -->
 
