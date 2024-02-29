@@ -40,7 +40,6 @@
                 <a href="https://forms.gle/XsXEq4mUaCxZykcJ9" target="_blank" class="btn btn-primary py-2 px-4  d-lg-block" id="btn_inscribirse">INSCRIPCIONES</a>
             </div>
 			<!-- <button class="btn btn-primary w-100 py-3" type="submit" data-bs-toggle="modal" data-bs-target="#anuncio_modal">Anuncio</button> -->
-
         </div>
     </nav>
     <!-- End Menu -->
