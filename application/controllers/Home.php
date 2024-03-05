@@ -62,7 +62,7 @@ class Home extends CI_Controller {
 	public function concursos(){
 		$this->load->view('sections/header');
 		$this->load->view('components/menu');
-		$this->load->view('pages/concursos');
+		$this->load->view('pages/programas');
 		$this->load->view('components/whatsapp');
 		$this->load->view('components/chatbot');
 		$this->load->view('sections/footer');

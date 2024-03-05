@@ -102,7 +102,15 @@
 									</h5>
     							</div>
     						</div>
+							<hr>
+
+
     						<div class="col-12">
+
+							<h4 class="card-title" style="text-align: justify;">
+								Se enviará una copia de tus respuestas por correo electrónico a la dirección que has proporcionado.    						
+							</h4>
+
     							<button class="btn btn-primary w-100 py-3" type="submit">Enviar</button>
     						</div>
     					</div>
