@@ -2,7 +2,7 @@
     <div class="container-xxl py-5">
     	<div class="container">
     		<div class="row g-5">
-    			<div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+    			<div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
     				<h4 class="section-title">Formulario </h4>
     				<h1 class="display-5 mb-4">Inscripción a Concursos</h1>
     				<p class="mb-4" style="text-align: justify;">Por favor complete el siguiente formulario con sus datos personales, seleccione el concurso de su interés y luego adjunte en formato PDF y con su firma digitalizada la nota de inscripción, con carácter de Declaración Jurada. </p>
@@ -17,7 +17,7 @@
 
     				</div>
     			</div>
-    			<div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+    			<div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
     				<div class="jumbotron jumbotron-fluid">
     						<div class="row g-3">
     							<h4><label for="inputName">Datos Personales</label></h4>
