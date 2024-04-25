@@ -13,6 +13,7 @@ class Home extends CI_Controller {
         $this->load->view('components/menu');
         $this->load->view('pages/seccion_principal');
         $this->load->view('pages/home_opciones');
+        $this->load->view('pages/pautas_examen');
         $this->load->view('pages/novedades');
         $this->load->view('pages/enlaces');
         $this->load->view('pages/contacto');
@@ -107,21 +108,11 @@ class Home extends CI_Controller {
 	}
 
 	public function prensa_blog(){
-		$this->load->view('sections/header');
-		$this->load->view('components/menu');
-		$this->load->view('pages/prensa_blog');
-		$this->load->view('components/whatsapp');
-		$this->load->view('components/chatbot');
-		$this->load->view('sections/footer');
+		redirect('https://conmag.chaco.gov.ar/prensa/', 'refresh');
 	}
 
 	public function prensa_galeria(){
-		$this->load->view('sections/header');
-		$this->load->view('components/menu');
-		$this->load->view('pages/prensa_galeria');
-		$this->load->view('components/whatsapp');
-		$this->load->view('components/chatbot');
-		$this->load->view('sections/footer');
+		redirect('https://www.flickr.com/photos/cmyje/', 'refresh');
 	}
 
 
