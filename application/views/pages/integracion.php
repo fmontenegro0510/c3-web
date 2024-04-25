@@ -70,132 +70,67 @@
         <br>
 
         <div class="container-xxl project py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h4 class="section-title">1958 - 2018</h4>
-                <h1 class="display-5 mb-4">Integraciones Anteriores</h1>
-            </div>
-            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="col-lg-4">
-                    <div class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4">
-                        <select class="form-select nav-link w-100 d-flex align-items-center text-start p-4 mb-4 " >
-                            <option selected>Seleccione un periodo</option>
-                            <option data-bs-toggle="pill" data-bs-target="#tab-pane-2018">Año 2018</option>
-                            <option data-bs-toggle="pill" data-bs-target="#tab-pane-2016">Año 2016</option>
-                        </select>
-                    </div>
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h4 class="section-title">1958 - 2018</h4>
+                    <h1 class="display-5 mb-4">Integraciones Anteriores</h1>
                 </div>
-                <div class="col-lg-8">
-                    <div class="tab-content w-100">
-                        <div class="tab-pane fade show active" id="tab-pane-2018">
-                            <div class="row g-4">
-
-                                <p>2018</p>
-
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="tab-pane-2016">
-                            <div class="row g-4">
-                                <p>2016</p>
-                            </div>
+                <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-lg-4">
+                        <div class="row text-center">
+                            <h3><u>Seleccione un periodo:</u></h3>
                         </div>
 
+                        <div class="nav nav-pills d-flex justify-content-between w-20 h-10 me-4" style="text-align-last:center !important;">
+                            <select id="periodo-select" class="form-select nav-link w-100 d-flex align-items-center text-start p-4 mb-4">
+                                <option selected value="v-pills-2018">Año 2018</option>
+                                <option value="v-pills-2016">Año 2016</option>
+                                <option value="v-pills-2014">Año 2014</option>
+                                <option value="v-pills-2012">Año 2012</option>
+                                <option value="v-pills-2010">Año 2010</option>
+                                <option value="v-pills-2008">Año 2008</option>
+                                <option value="v-pills-2007">Año 2007</option>
+                                <option value="v-pills-2006">Año 2006</option>
+                                <option value="v-pills-2004">Año 2004</option>
+                                <option value="v-pills-2002">Año 2002</option>
+                                <option value="v-pills-2001">Año 2001</option>
+                                <option value="v-pills-2000">Año 2000</option>
+                                <option value="v-pills-1998">Año 1998</option>
+                                <option value="v-pills-1997">Año 1997</option>
+                                <option value="v-pills-1996">Año 1996</option>
+                                <option value="v-pills-1995">Año 1995</option>
+                                <option value="v-pills-1994">Año 1994</option>
+                                <option value="v-pills-1993">Año 1993</option>
+                                <option value="v-pills-1992">Año 1992</option>
+                                <option value="v-pills-1990">Año 1990</option>
+                                <option value="v-pills-1988">Año 1988</option>
+                                <option value="v-pills-1986">Año 1986</option>
+                                <option value="v-pills-1985">Año 1985</option>
+                                <option value="v-pills-1984">Año 1984</option>
+                                <option value="v-pills-1982">Año 1982</option>
+                                <option value="v-pills-1981">Año 1981</option>
+                                <option value="v-pills-1980">Año 1980</option>
+                                <option value="v-pills-1979">Año 1979</option>
+                                <option value="v-pills-1978">Año 1978</option>
+                                <option value="v-pills-1977">Año 1977</option>
+                                <option value="v-pills-1976">Año 1976</option>
+                                <option value="v-pills-1975">Año 1975</option>
+                                <option value="v-pills-1974">Año 1974</option>
+                                <option value="v-pills-1973">Año 1973</option>
+                                <option value="v-pills-1972">Año 1972</option>
+                                <option value="v-pills-1970">Año 1970</option>
+                                <option value="v-pills-1968">Año 1968</option>
+                                <option value="v-pills-1966">Año 1966</option>
+                                <option value="v-pills-1964">Año 1964</option>
+                                <option value="v-pills-1961">Año 1961</option>
+                                <option value="v-pills-1960">Año 1960</option>
+                                <option value="v-pills-1958">Año 1958</option>
+
+                            </select>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="container-xxl py-5" id="autoridades-anteriores">
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <!-- <h4 class="section-title">Integración Anteriores</h4> -->
-                <h1 class="display-5 mb-4">Integraciones Anteriores</h1>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-3 btn-group-integracion">
-                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <button class="nav-link active" id="v-pills-2018-tab" data-toggle="pill" data-target="#v-pills-2018" type="button" role="tab" aria-controls="v-pills-2018" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 2018</button>
-                        <button class="nav-link" id="v-pills-2016-tab" data-toggle="pill" data-target="#v-pills-2016" type="button" role="tab" aria-controls="v-pills-2016" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 2016</button>
-                        <button class="nav-link" id="v-pills-2014-tab" data-toggle="pill" data-target="#v-pills-2014" type="button" role="tab" aria-controls="v-pills-2014" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 2014</button>
-                        <button class="nav-link" id="v-pills-2012-tab" data-toggle="pill" data-target="#v-pills-2012" type="button" role="tab" aria-controls="v-pills-2012" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 2012</button>
-                        <button class="nav-link" id="v-pills-2010-tab" data-toggle="pill" data-target="#v-pills-2010" type="button" role="tab" aria-controls="v-pills-2010" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 2010</button>
-                        <button class="nav-link" id="v-pills-2008-tab" data-toggle="pill" data-target="#v-pills-2008" type="button" role="tab" aria-controls="v-pills-2008" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 2008</button>
-                        <button class="nav-link" id="v-pills-2007-tab" data-toggle="pill" data-target="#v-pills-2007" type="button" role="tab" aria-controls="v-pills-2007" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 2007</button>
-                        <button class="nav-link" id="v-pills-2006-tab" data-toggle="pill" data-target="#v-pills-2006" type="button" role="tab" aria-controls="v-pills-2006" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 2006</button>
-                        <button class="nav-link" id="v-pills-2004-tab" data-toggle="pill" data-target="#v-pills-2004" type="button" role="tab" aria-controls="v-pills-2004" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 2004</button>
-                        <button class="nav-link" id="v-pills-2002-tab" data-toggle="pill" data-target="#v-pills-2002" type="button" role="tab" aria-controls="v-pills-2002" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 2002</button>
-                        <button class="nav-link" id="v-pills-2001-tab" data-toggle="pill" data-target="#v-pills-2001" type="button" role="tab" aria-controls="v-pills-2001" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 2001</button>
-                        <button class="nav-link" id="v-pills-2000-tab" data-toggle="pill" data-target="#v-pills-2000" type="button" role="tab" aria-controls="v-pills-2000" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 2000</button>
-                        <button class="nav-link" id="v-pills-1998-tab" data-toggle="pill" data-target="#v-pills-1998" type="button" role="tab" aria-controls="v-pills-1998" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1998</button>
-                        <button class="nav-link" id="v-pills-1997-tab" data-toggle="pill" data-target="#v-pills-1997" type="button" role="tab" aria-controls="v-pills-1997" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1997</button>
-                        <button class="nav-link" id="v-pills-1996-tab" data-toggle="pill" data-target="#v-pills-1996" type="button" role="tab" aria-controls="v-pills-1996" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1996</button>
-                        <button class="nav-link" id="v-pills-1995-tab" data-toggle="pill" data-target="#v-pills-1995" type="button" role="tab" aria-controls="v-pills-1995" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1995</button>
-                        <button class="nav-link" id="v-pills-1994-tab" data-toggle="pill" data-target="#v-pills-1994" type="button" role="tab" aria-controls="v-pills-1994" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1994</button>
-                        <button class="nav-link" id="v-pills-1993-tab" data-toggle="pill" data-target="#v-pills-1993" type="button" role="tab" aria-controls="v-pills-1993" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1993</button>
-                        <button class="nav-link" id="v-pills-1992-tab" data-toggle="pill" data-target="#v-pills-1992" type="button" role="tab" aria-controls="v-pills-1992" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1992</button>
-                        <button class="nav-link" id="v-pills-1990-tab" data-toggle="pill" data-target="#v-pills-1990" type="button" role="tab" aria-controls="v-pills-1990" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1990</button>
-                        <button class="nav-link" id="v-pills-1988-tab" data-toggle="pill" data-target="#v-pills-1988" type="button" role="tab" aria-controls="v-pills-1988" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1988</button>
-                        <button class="nav-link" id="v-pills-1986-tab" data-toggle="pill" data-target="#v-pills-1986" type="button" role="tab" aria-controls="v-pills-1986" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1986</button>
-                        <button class="nav-link" id="v-pills-1985-tab" data-toggle="pill" data-target="#v-pills-1985" type="button" role="tab" aria-controls="v-pills-1985" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1985</button>
-                        <button class="nav-link" id="v-pills-1984-tab" data-toggle="pill" data-target="#v-pills-1984" type="button" role="tab" aria-controls="v-pills-1984" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1984</button>
-                        <button class="nav-link" id="v-pills-1982-tab" data-toggle="pill" data-target="#v-pills-1982" type="button" role="tab" aria-controls="v-pills-1982" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1982</button>
-                        <button class="nav-link" id="v-pills-1981-tab" data-toggle="pill" data-target="#v-pills-1981" type="button" role="tab" aria-controls="v-pills-1981" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1981</button>
-                        <button class="nav-link" id="v-pills-1980-tab" data-toggle="pill" data-target="#v-pills-1980" type="button" role="tab" aria-controls="v-pills-1980" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1980</button>
-                        <button class="nav-link" id="v-pills-1979-tab" data-toggle="pill" data-target="#v-pills-1979" type="button" role="tab" aria-controls="v-pills-1979" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1979</button>
-                        <button class="nav-link" id="v-pills-1978-tab" data-toggle="pill" data-target="#v-pills-1978" type="button" role="tab" aria-controls="v-pills-1978" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1978</button>
-                        <button class="nav-link" id="v-pills-1977-tab" data-toggle="pill" data-target="#v-pills-1977" type="button" role="tab" aria-controls="v-pills-1977" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1977</button>
-                        <button class="nav-link" id="v-pills-1976-tab" data-toggle="pill" data-target="#v-pills-1976" type="button" role="tab" aria-controls="v-pills-1976" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1976</button>
-                        <button class="nav-link" id="v-pills-1975-tab" data-toggle="pill" data-target="#v-pills-1975" type="button" role="tab" aria-controls="v-pills-1975" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1975</button>
-                        <button class="nav-link" id="v-pills-1974-tab" data-toggle="pill" data-target="#v-pills-1974" type="button" role="tab" aria-controls="v-pills-1974" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1974</button>
-                        <button class="nav-link" id="v-pills-1973-tab" data-toggle="pill" data-target="#v-pills-1973" type="button" role="tab" aria-controls="v-pills-1973" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1973</button>
-                        <button class="nav-link" id="v-pills-1972-tab" data-toggle="pill" data-target="#v-pills-1972" type="button" role="tab" aria-controls="v-pills-1972" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1972</button>
-                        <button class="nav-link" id="v-pills-1970-tab" data-toggle="pill" data-target="#v-pills-1970" type="button" role="tab" aria-controls="v-pills-1970" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1970</button>
-                        <button class="nav-link" id="v-pills-1968-tab" data-toggle="pill" data-target="#v-pills-1968" type="button" role="tab" aria-controls="v-pills-1968" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1968</button>
-                        <button class="nav-link" id="v-pills-1966-tab" data-toggle="pill" data-target="#v-pills-1966" type="button" role="tab" aria-controls="v-pills-1966" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1966</button>
-                        <button class="nav-link" id="v-pills-1964-tab" data-toggle="pill" data-target="#v-pills-1964" type="button" role="tab" aria-controls="v-pills-1964" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1964</button>
-                        <button class="nav-link" id="v-pills-1961-tab" data-toggle="pill" data-target="#v-pills-1961" type="button" role="tab" aria-controls="v-pills-1961" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1961</button>
-                        <button class="nav-link" id="v-pills-1960-tab" data-toggle="pill" data-target="#v-pills-1960" type="button" role="tab" aria-controls="v-pills-1960" aria-selected="false" style="border: 1px solid #dee2e6!important; margin: 5px 0px 5px 0px;">Año 1960</button>
-                        <button class="nav-link" id="v-pills-1958-tab" data-toggle="pill" data-target="#v-pills-1958" type="button" role="tab" aria-controls="v-pills-1958" aria-selected="true" style="border: 1px solid #dee2e6!important; ">Año 1958</button>
-
-                    </div>
-                </div>
-                <div class="col-9" style="border: 1px solid #dee2e6!important; padding-top: 1rem; padding-bottom: 1rem; .nav-pills .nav-link.active, .nav-pills .show>.nav-link{ background-color: #828384!important}">
-                    <div class="tab-content" id="v-pills-tabContent">
-                        <!-- 1958 -->
+                    <div class="col-lg-8">
+                        <div class="tab-content w-100">
                         <div class="tab-pane fade" id="v-pills-1958" role="tabpanel" aria-labelledby="v-pills-1958-tab">
                             <div class="container" style="align-items: left;">
                                 <h4>Integración Año 1958</h4>
@@ -1254,10 +1189,26 @@
                                 <br>
                             </div>
                         </div>
-                        <!--  -->
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
+        <script>
+            // Escuchar el cambio en el select y mostrar u ocultar el contenido correspondiente
+            document.getElementById('periodo-select').addEventListener('change', function() {
+                var selectedOption = this.value;
+                var tabPanes = document.querySelectorAll('.tab-pane');
+                tabPanes.forEach(function(tabPane) {
+                    if (tabPane.id === selectedOption) {
+                        tabPane.classList.add('show', 'active');
+                    } else {
+                        tabPane.classList.remove('show', 'active');
+                    }
+                });
+            });
+        </script>
     </div>
     <!-- Team End -->
