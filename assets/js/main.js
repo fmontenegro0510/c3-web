@@ -80,6 +80,18 @@
         items: 1,
         dotsData: true,
     });
+    
+    // pautas
+    $(".pautas-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1500,
+        loop: true,
+        nav: false,
+        dots: false,
+        items: 1,
+        dotsData: true,
+        mouseDrag: false,
+    });
 
 })(jQuery);
 

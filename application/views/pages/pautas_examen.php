@@ -40,7 +40,7 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="owl-carousel header-carousel position-relative">
+                            <div class="owl-carousel pautas-carousel position-relative">
                                 <div class="owl-carousel-item position-relative" data-dot='<img src="<?php echo base_url(); ?>assets/img/v1/pautas/01.jpeg" >'>
                                     <img class="img-fluid" src="<?php echo base_url(); ?>assets/img/v1/pautas/01.jpeg" alt="">
                                 </div>
