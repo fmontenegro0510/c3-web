@@ -1,7 +1,7 @@
     <!-- Menu -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
     	<a href="<?php echo base_url(); ?>" class="navbar-brand ms-4 ms-lg-0">
-    		<div class="container-nav">
+    		<div class="container-nav" id="escudo_provincial">
     			<div class="logo">
     				<h1 class="text-primary m-0"><img class="me-3" src="<?php echo base_url(); ?>assets/img/v1/logo/chaco_64x64.png" alt="Icon"></h1>
     			</div>
@@ -38,7 +38,7 @@
     					</a>
     				</div>
     			</div>
-				<div class="nav-item dropdown">
+    			<div class="nav-item dropdown">
     				<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
     					<h5 class="mb-0">Concursos</h5>
     				</a>
@@ -52,13 +52,13 @@
     					<a href="<?php echo base_url(); ?>prensa_galeria" class="dropdown-item">
     						<h5 class="mb-0">Defensor General</h5>
     					</a>
-						<a href="<?php echo base_url(); ?>prensa_galeria" class="dropdown-item">
+    					<a href="<?php echo base_url(); ?>prensa_galeria" class="dropdown-item">
     						<h5 class="mb-0">Secretario General del CM</h5>
     					</a>
-						<a href="<?php echo base_url(); ?>prensa_galeria" class="dropdown-item">
+    					<a href="<?php echo base_url(); ?>prensa_galeria" class="dropdown-item">
     						<h5 class="mb-0">Dirección de Adm. del CM</h5>
     					</a>
-						<a href="<?php echo base_url(); ?>prensa_galeria" class="dropdown-item">
+    					<a href="<?php echo base_url(); ?>prensa_galeria" class="dropdown-item">
     						<h5 class="mb-0">Dir. Asuntos Jurídicos del CM</h5>
     					</a>
     				</div>
@@ -93,3 +93,16 @@
     	</div>
     </nav>
     <!-- End Menu -->
+	<!-- style="visibility: hidden; display: none;" -->
+    <div class="centrado-impresion" id="escudo_provincial_impresion" style="visibility: hidden; display: none;">
+    	<div class="logo">
+    		<h1 class="text-primary m-0"><img class="me-3" src="<?php echo base_url(); ?>assets/img/v1/logo/chaco_64x64.png" alt="Icon"></h1>
+    	</div>
+    	<div class="leyenda">
+    		<h5 class="mb-0"> Consejo de la Magistratura <br> y Jurado de Enjuiciamiento</h5>
+    		<h5 class="mb-0"> Provincia del Chaco </h5>
+    	</div>
+    	<!-- <div class="ps-1" style="text-align: right;">
+    		<h4>Viernes, 26 de Abril de 2024</p>
+    	</div> -->
+    </div>

@@ -7,7 +7,7 @@
                     <h1 class="display-1">404</h1>
                     <h1 class="mb-4">La página no existe</h1>
                     <p class="mb-4">El servidor no pudo encontrar el contenido solicitado.</p>
-                    <a class="btn btn-primary py-3 px-5" href="">Volver al Inicio</a>
+                    <a class="btn btn-primary py-3 px-5" href="<?php echo base_url(); ?>">Volver al Inicio</a>
                 </div>
             </div>
         </div>

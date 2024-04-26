@@ -82,7 +82,9 @@
                         </div>
 
                         <div class="nav nav-pills d-flex justify-content-between w-20 h-10 me-4" style="text-align-last:center !important;">
-                            <select id="periodo-select" class="form-select nav-link w-100 d-flex align-items-center text-start p-4 mb-4">
+                            <select id="periodo-select" class="form-select nav-link w-100 d-flex align-items-center text-start p-4 mb-4 section-title" 
+                            style="-webkit-appearance: none; -moz-appearance: none; appearance: none; background-image: url('data:image/svg+xml;utf8,<svg fill=\'black\' viewBox=\'0 0 20 20\' xmlns=\'http://www.w3.org/2000/svg\'><path d=\'M10 15l-7-7h14z\' /></svg>'); background-repeat: no-repeat; background-position: right center; background-size: 25px;"
+                            >
                                 <option selected value="v-pills-2018">Año 2018</option>
                                 <option value="v-pills-2016">Año 2016</option>
                                 <option value="v-pills-2014">Año 2014</option>
